@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Weather By Zip Code</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Weather By Zip Code</h1>
+            <label for="zipCode">Zip Code:</label>
+            <input class = "cityInput" type="text" id="zipCode" placeholder="Enter zip code">
+            <label for="countryCode">Country Code:</label>
+            <input class = "cityInput" type="text" id="countryCode" placeholder="Enter country code">
+            <button class = "button1" type = "button" onclick="getWeatherFromZip()">Get Weather</button>
+            <button class = "button1" type = "button" onclick="getForecastFromZip()">Get Forecast</button>
+
+
+            <div id="weatherInfo">
+
+            </div>
+            <div id = "header"></div>
+            <div id="forecastInfo">
+
+            </div>
+
+            <a class = "back" href="index.html">Go Back</a>
+
+            <script src="script.js"></script>
+    </body>
+</html>

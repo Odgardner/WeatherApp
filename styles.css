@@ -1,0 +1,133 @@
+.button {
+    background-color: white;
+    border: none;
+    padding: 50px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 25px 20px;
+    cursor: pointer;
+    border-top-left-radius: 1em 1em; 
+    border-top-right-radius: 1em 1em;
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;
+    background: linear-gradient(#f8f8f9, #f3dcae);
+  }
+.title{
+    color: rgb(224, 222, 204);
+}
+ .button1 {
+    background-color: rgb(24, 60, 101); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-top-left-radius: 1em 1em; 
+    border-top-right-radius: 1em 1em;
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;
+  }
+  .button2{
+    background-color: rgb(24, 60, 101); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-top-left-radius: 1em 1em; 
+    border-top-right-radius: 1em 1em;
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;
+    margin-left: 37px;
+
+
+  }
+
+  .back{
+    color: white;
+    display: inline-block;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    background-color: rgb(24, 60, 101);
+    border-top-left-radius: 1em 1em; 
+    border-top-right-radius: 1em 1em;
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;
+  }
+
+.head{
+    padding: 10px;
+    font-weight: bold;
+}
+
+.head1{
+    padding: 110px;
+    font-weight: bold;
+}
+
+.data{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid;
+    border-top-left-radius: 1em 1em; 
+    border-top-right-radius: 1em 1em;
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;
+    background-color: rgb(54, 149, 181);
+    color: white;
+    display: table-cell;
+    width: 33%;
+}
+
+.whole{
+    width: 1200px;
+    background-color: green;
+}
+
+.border{
+    border: 1px solid;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherForm{
+    margin: 20px;
+}
+
+.cityInput{
+    padding: 5px;
+    font-size: 11px;
+    font-weight: bold;
+    border: 2px solid hsl(0, 0%, 20%, 0.3);
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    border-top-left-radius: 1em 1em; 
+    border-top-right-radius: 1em 1em;
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;
+}
+
+.bg{
+    background: linear-gradient(#293f50, #a8e4f0);
+}

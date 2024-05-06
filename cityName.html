@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Weather By City Name</h1>
+    <label for="cityID">City Name:</label>
+    <form class="weatherName">
+        <input class = "cityInput" type="text" class="cityInput" placeholder="Enter City">
+    <div>
+        <button class = "button2" type="submit">Get Weather</button>
+    </div>
+        <button class = "button2" type="button" onclick="getForecastFromName()">Get Forecast</button>
+    </form>
+
+    <div class="card">
+        <div>
+            <hi1 class="cityDisplay"></hi1>
+        </div>
+        <div>
+            <p class="tempDisplay"></p>
+        </div>
+        <div>
+            <p class="humidityDisplay"></p> 
+        </div>
+        <div>
+            <p class="descDisplay"></p>
+        </div>
+        <div>
+            <p class="emoji"></p>
+        </div>
+    </div>
+
+    <div id="header"></div>
+    
+    <div id="forecastInfo">
+
+    </div>
+
+    <body>
+        <a class = "back" href="index.html">Go Back</a>
+    </body>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
